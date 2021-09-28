@@ -1,5 +1,5 @@
 Feature: Test Swiggy Application Functionality
-
+  
   Scenario: User is able to open the webside succesfully
     Given user has open swiggy homepage
     When user is on swiggy homepage

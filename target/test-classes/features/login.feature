@@ -7,6 +7,7 @@ Feature: Test Swiggy Application Functionality
 
   Scenario: User is able to enter signin page
     Given user has open swiggy homepage
-    When user click any city
+    When user click any location
+      | location | Bangalore |
     Then user enter to swiggy signin page
     And some "Sign In" button will be on signin page

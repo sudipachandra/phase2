@@ -1,0 +1,4 @@
+com/seltests/Configuration.class
+pages/HomePage.class
+com/seltests/SeleniumDriverManager.class
+pages/BasePage.class

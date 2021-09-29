@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="sanity suite" duration-ms="42780" started-at="2021-09-29T19:34:35 IST" finished-at="2021-09-29T19:35:17 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:steps.SanityTestRunner@1b26f7b2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="sanity test" duration-ms="42780" started-at="2021-09-29T19:34:35 IST" finished-at="2021-09-29T19:35:17 IST">
+      <class name="steps.SanityTestRunner">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:steps.SanityTestRunner@1b26f7b2]" name="beforeSuite" is-config="true" duration-ms="58" started-at="2021-09-29T19:34:34 IST" finished-at="2021-09-29T19:34:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:steps.SanityTestRunner@1b26f7b2]" name="setUpClass" is-config="true" duration-ms="247" started-at="2021-09-29T19:34:35 IST" finished-at="2021-09-29T19:34:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:steps.SanityTestRunner@1b26f7b2]" name="runScenario" duration-ms="16202" started-at="2021-09-29T19:34:35 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-29T19:34:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User can check their location"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test Location Functionality in swiggy]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:steps.SanityTestRunner@1b26f7b2]" name="runScenario" duration-ms="11180" started-at="2021-09-29T19:34:51 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-29T19:35:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to open the webside succesfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test Swiggy Application Functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:steps.SanityTestRunner@1b26f7b2]" name="runScenario" duration-ms="15104" started-at="2021-09-29T19:35:02 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-29T19:35:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to enter signin page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test Swiggy Application Functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:steps.SanityTestRunner@1b26f7b2]" name="tearDownClass" is-config="true" duration-ms="29" started-at="2021-09-29T19:35:17 IST" finished-at="2021-09-29T19:35:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:steps.SanityTestRunner@1b26f7b2]" name="afterSuite" is-config="true" duration-ms="121" started-at="2021-09-29T19:35:18 IST" finished-at="2021-09-29T19:35:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- steps.SanityTestRunner -->
+    </test> <!-- sanity test -->
+  </suite> <!-- sanity suite -->
+</testng-results>

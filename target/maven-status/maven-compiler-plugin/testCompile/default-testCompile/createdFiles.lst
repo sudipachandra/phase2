@@ -1,2 +1,6 @@
-HomeStepdefs.class
+steps/SanityTestRunner.class
+reports/ExtentTestManager.class
+steps/TestRunner.class
+steps/LocationStepdefs.class
 steps/Hooks.class
+steps/HomeStepdefs.class

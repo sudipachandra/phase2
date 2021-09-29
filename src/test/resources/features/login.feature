@@ -1,10 +1,12 @@
 Feature: Test Swiggy Application Functionality
-  
+
+  @SanityTest
   Scenario: User is able to open the webside succesfully
     Given user has open swiggy homepage
     When user is on swiggy homepage
     Then some "Login" button will be on homepage
 
+  @SanityTest
   Scenario: User is able to enter signin page
     Given user has open swiggy homepage
     When user click any location

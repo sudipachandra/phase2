@@ -1,0 +1,331 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-30T16:45:15.178Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.beforeTest1(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2557000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.beforeTest()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User can check their location",
+        "description": "",
+        "id": "test-location-functionality-in-swiggy;user-can-check-their-location;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 5066000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.afterTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 699000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on swiggy homepage",
+            "match": {
+              "location": "steps.LocationStepdefs.userIsOnSwiggyHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1679000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click any location",
+            "match": {
+              "location": "steps.HomeStepdefs.userClickAnyLocation(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "location",
+                  "Bangalore"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be navigate to restaurant page",
+            "match": {
+              "location": "steps.LocationStepdefs.userShouldBeNavigateToRestaurantPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 71000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click any location",
+            "match": {
+              "location": "steps.HomeStepdefs.userClickAnyLocation(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "location",
+                  "HSR"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SanityTest"
+          }
+        ]
+      }
+    ],
+    "name": "Test Location Functionality in swiggy",
+    "description": "",
+    "id": "test-location-functionality-in-swiggy",
+    "keyword": "Feature",
+    "uri": "classpath:features/location.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-30T16:45:25.274Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.beforeTest1(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2108000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.beforeTest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User is able to open the webside succesfully",
+        "description": "",
+        "id": "test-swiggy-application-functionality;user-is-able-to-open-the-webside-succesfully",
+        "after": [
+          {
+            "result": {
+              "duration": 5068000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.afterTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1489000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user has open swiggy homepage",
+            "match": {
+              "location": "steps.HomeStepdefs.userHasOpenSwiggyHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on swiggy homepage",
+            "match": {
+              "location": "steps.HomeStepdefs.userIsOnSwiggyHomepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "some \"Login\" button will be on homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 5
+                }
+              ],
+              "location": "steps.HomeStepdefs.someButtonWillBeOnHomepage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SanityTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-30T16:45:33.972Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.beforeTest1(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2010000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.beforeTest()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "User is able to enter signin page",
+        "description": "",
+        "id": "test-swiggy-application-functionality;user-is-able-to-enter-signin-page",
+        "after": [
+          {
+            "result": {
+              "duration": 5068000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.afterTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1733000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user has open swiggy homepage",
+            "match": {
+              "location": "steps.HomeStepdefs.userHasOpenSwiggyHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1804000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click any location",
+            "match": {
+              "location": "steps.HomeStepdefs.userClickAnyLocation(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "location",
+                  "Bangalore"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enter to swiggy signin page",
+            "match": {
+              "location": "steps.HomeStepdefs.userEnterToSwiggySigninPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "some \"Sign In\" button will be on signin page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sign In\"",
+                  "offset": 5
+                }
+              ],
+              "location": "steps.HomeStepdefs.someButtonWillBeOnSigninPage(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SanityTest"
+          }
+        ]
+      }
+    ],
+    "name": "Test Swiggy Application Functionality",
+    "description": "",
+    "id": "test-swiggy-application-functionality",
+    "keyword": "Feature",
+    "uri": "classpath:features/login.feature",
+    "tags": []
+  }
+]

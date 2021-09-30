@@ -12,7 +12,8 @@ import reports.ExtentTestManager;
         features = "classpath:features",
         glue = "classpath:steps",
         tags = "@SanityTest",
-        plugin = {"pretty","html:cucumber-report.html"}
+        plugin = {"pretty","html:cucumber-report.html"
+        ,"json:cucumber.json"}
 )
 
 public class SanityTestRunner extends AbstractTestNGCucumberTests {

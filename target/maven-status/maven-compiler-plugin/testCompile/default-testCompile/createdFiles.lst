@@ -1,6 +1,7 @@
 steps/SanityTestRunner.class
 reports/ExtentTestManager.class
 steps/TestRunner.class
+seleniumGrid/SeleniumGridTest.class
 steps/LocationStepdefs.class
 steps/Hooks.class
 steps/HomeStepdefs.class

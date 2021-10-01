@@ -2,6 +2,8 @@ steps/SanityTestRunner.class
 reports/ExtentTestManager.class
 steps/TestRunner.class
 seleniumGrid/SeleniumGridTest.class
+Listeners/TestngListener.class
 steps/LocationStepdefs.class
 steps/Hooks.class
+Listeners/TestngSuiteListener.class
 steps/HomeStepdefs.class

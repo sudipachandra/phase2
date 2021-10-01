@@ -1,5 +1,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name = "sanity suite">
+    <listeners>
+        <listener class-name="Listeners.TestngListener"/>
+        <listener class-name="Listeners.TestngSuiteListener"/>
+    </listeners>
     <test name = "sanity test">
         <classes>
            <class name = "steps.SanityTestRunner"/>

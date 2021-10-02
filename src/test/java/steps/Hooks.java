@@ -19,6 +19,7 @@ public class Hooks {
         String scenarioName = scenario.getName();
         System.out.println("name is :"+scenarioName);
         //ExtentTestManager.extentTest= ExtentTestManager.getExtentReportsObj().startTest(scenarioName);
+      //  ExtentTestManager.setExtentReportsObj("target/extentReport.html");
         ExtentTestManager.startTest(scenarioName);
     }
 
